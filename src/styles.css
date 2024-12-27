@@ -191,5 +191,7 @@ footer a {
   }
   .resources-list {
     display: flex;
+    position: sticky;
+    top: 0;
   }
 }
