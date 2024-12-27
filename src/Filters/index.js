@@ -17,7 +17,7 @@ const FiltersList = (props) => {
   const filterListElements = filterOptions.map(renderFilter);
   return (
     <div className="filters">
-      <h5 className="filters__header">Filter By:</h5>
+      <h2 className="filters__header">Filter By:</h2>
       <hr />
       <ul className="filters-list">{filterListElements}</ul>
     </div>
