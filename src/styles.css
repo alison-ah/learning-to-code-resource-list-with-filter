@@ -188,10 +188,10 @@ footer a {
   .filters {
     width: 240px;
     margin: 32px 5px;
+    position: sticky;
+    top: 0;
   }
   .resources-list {
     display: flex;
-    position: sticky;
-    top: 0;
   }
 }
