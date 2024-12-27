@@ -15,7 +15,7 @@ const Resource = (props) => (
       </div>
       <div className="resource__main">
         <div>
-          <span>Skills:</span>
+          <h4>Skills:</h4>
           <Type type="HTML" hasType={props.resource.html} />
           <Type type="CSS" hasType={props.resource.css} />
           <Type type="Accessibility" hasType={props.resource.accessibility} />
