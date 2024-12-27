@@ -21,9 +21,9 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
+      <div className="App" role="main">
         <Header />
-        <div className="content">
+        <div className="content" role="content">
           <Filters
             selectedFilters={this.state.selectedFilters}
             toggleFilter={this.toggleFilter}
