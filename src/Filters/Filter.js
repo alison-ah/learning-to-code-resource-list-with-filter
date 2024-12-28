@@ -15,8 +15,7 @@ const Filter = (props) => {
           checked={props.isChecked}
           onChange={onChange}
           className="filter__checkbox"
-          labelfor={props.filter.key}
-          id={props.filter.key}
+          id={props.filter.display}
         />
         {props.filter.display}
       </span>
