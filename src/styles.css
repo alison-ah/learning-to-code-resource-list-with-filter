@@ -108,8 +108,9 @@ h4 {
 }
 .view_resource {
   padding: 10px;
-  min-height: 50px;
-  font-size: 16px;
+  min-height: 60px;
+  min-width: 60px;
+  font-size: 20px;
   background-color: var(--secondary-color-3);
   color: white;
   font-weight: bolder;
@@ -126,6 +127,8 @@ h4 {
   padding: 10px 15px;
   background-color: var(--flag-color);
   color: white;
+  font-size: 20px;
+  font-weight: bold;
   border-radius: 0 5px 5px 0;
   box-shadow: 1px 1px 2px black;
 }
