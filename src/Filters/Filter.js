@@ -18,9 +18,9 @@ const Filter = (props) => {
           onChange={onChange}
           className="filter__checkbox"
         />
-        {props.filter.display}
+        <span label={props.filter.display}>{props.filter.display}</span>
       </span>
-      <span className="filter__match-count">{matchCount}</span>
+      <span className="filter__match-count" label={props.filter.display}>{matchCount}</span>
     </li>
   );
 };
