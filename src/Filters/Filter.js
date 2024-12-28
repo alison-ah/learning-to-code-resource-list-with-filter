@@ -12,10 +12,11 @@ const Filter = (props) => {
       <span>
         <input
           type="checkbox"
+          label={props.filter.display}
+          id={props.filter.display}
           checked={props.isChecked}
           onChange={onChange}
           className="filter__checkbox"
-          id={props.filter.display}
         />
         {props.filter.display}
       </span>
