@@ -12,13 +12,13 @@ const Filter = (props) => {
       <span>
         <input
           type="checkbox"
-          label="{props.filter.display}"
+          label={props.filter.display}
           id={props.filter.display}
           checked={props.isChecked}
           onChange={onChange}
           className="filter__checkbox"
         />
-        <span label="{props.filter.display}">{props.filter.display}</span>
+        <span label={props.filter.display}>{props.filter.display}</span>
       </span>
       <span className="filter__match-count" label={props.filter.display}>{matchCount}</span>
     </li>
