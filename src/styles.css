@@ -103,13 +103,8 @@ h4 {
   text-align: right;
   margin-top: auto;
 }
-.resource__price {
-  color: var(--secondary-color-3);
-  font-size: 20px;
-}
 .view_resource {
   padding: 10px;
-  min-height: 50px;
   min-width: 50px;
   font-size: 1em;
   text-decoration: none;
@@ -219,8 +214,6 @@ footer a {
     font-size: 20px;
   }
   .view_resource {
-    min-height: 60px;
     min-width: 60px;
-    font-size: 20px;
   }
 }
