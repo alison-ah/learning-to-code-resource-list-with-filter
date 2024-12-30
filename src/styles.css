@@ -202,6 +202,9 @@ footer a {
     position: sticky;
     top: 0;
   }
+  .resource {
+    flex-direction: row;
+  }
   .resources-list {
     display: flex;
   }
