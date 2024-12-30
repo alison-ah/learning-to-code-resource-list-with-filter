@@ -25,8 +25,8 @@ const Resource = (props) => (
           <Type type="DataViz" hasType={props.resource.dataViz} />
         </div>
         <div className="resource__main--right">
-          <a href={props.resource.url} target="_blank">
-            <button className="view_resource">View resource</button>
+          <a className="view_resource" href={props.resource.url} target="_blank" role="button">
+            View Resource
           </a>
         </div>
       </div>
