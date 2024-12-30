@@ -112,11 +112,14 @@ h4 {
   min-height: 50px;
   min-width: 50px;
   font-size: 1em;
+  text-decoration: none;
+  text-align: center;
   background-color: var(--secondary-color-3);
   color: white;
   font-weight: bolder;
   cursor: pointer;
   margin-top: 5px;
+  padding: 10px;
 }
 .view_resource:hover {
   box-shadow: 0 0 1px 1px var(--button-hover);
