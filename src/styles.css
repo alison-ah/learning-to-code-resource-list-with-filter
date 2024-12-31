@@ -174,12 +174,12 @@ h4 {
 /* footer */
 footer {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 footer p {
   font-size: 0.8em;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 footer a {
   color: var(--secondary-color-2);
