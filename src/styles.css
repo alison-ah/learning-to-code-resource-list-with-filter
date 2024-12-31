@@ -174,7 +174,8 @@ h4 {
 /* footer */
 footer {
   display: flex;
-  width: 90%;
+  width: 100%;
+  padding: 2em;
 }
 footer p {
   font-size: 0.8em;
