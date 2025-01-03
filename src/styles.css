@@ -63,8 +63,8 @@ ul {
 }
 .resource__image {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   margin-right: 20px;
 }
