@@ -36,6 +36,7 @@ h1 {
   width: 90%;
   margin: 0 auto;
   align-items: flex-start;
+  justify-content: center;
 }
 
 /* resource list */
