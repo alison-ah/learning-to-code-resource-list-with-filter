@@ -22,10 +22,11 @@ body {
 /* header */
 header {
   display: flex;
-  width: 100%;
+  width: 300px;
+  justify-content: center;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   text-shadow: 2px 2px var(--background-hover);
   width: 100%;
@@ -182,6 +183,7 @@ footer p {
   font-size: 0.8em;
   text-align: center;
   width: 100%;
+  padding: 2em;
 }
 footer a {
   color: var(--secondary-color-2);
@@ -190,6 +192,12 @@ footer a {
 
 /* media query */
 @media screen and (min-width: 760px) {
+  header {
+    width: 900px;
+  }
+  h1 {
+    font-size: 3em;
+  }
   .content {
     display: flex;
     justify-content: center;
@@ -206,6 +214,9 @@ footer a {
     position: sticky;
     top: 0;
   }
+  .filter {
+    width: 240px;
+  }
   .resource {
     flex-direction: row;
   }
@@ -221,5 +232,8 @@ footer a {
   }
   .view_resource {
     min-width: 60px;
+  }
+  footer {
+    width: 900px;
   }
 }
