@@ -39,6 +39,7 @@ h1 {
   padding: 1em;
   margin: 0;
   align-items: flex-start;
+  justify-content: center;
 }
 
 /* resource list */
@@ -168,6 +169,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 5px 0;
+  width: 290px;
 }
 .filter__checkbox {
   margin-right: 10px;
