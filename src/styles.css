@@ -33,7 +33,7 @@ h1 {
 
 /* content */
 .content {
-  width: 90%;
+  width: 300px;
   margin: 0 auto;
   align-items: flex-start;
   justify-content: center;
@@ -192,9 +192,13 @@ footer a {
 @media screen and (min-width: 760px) {
   .content {
     display: flex;
+    justify-content: center;
+    width: 1000px;
   }
   ul {
-    padding: 0 0 0 40px;
+    padding: 0;
+    padding-left: 2%;
+    width: 750px;
   }
   .filters {
     width: 240px;
