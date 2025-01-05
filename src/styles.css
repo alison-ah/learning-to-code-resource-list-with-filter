@@ -35,7 +35,8 @@ h1 {
 /* content */
 .content {
   display: flex;
-  width: 75%;
+  flex-wrap: wrap;
+  width: 95%;
   margin: 0 auto;
   align-items: flex-start;
   justify-content: center;
@@ -148,6 +149,7 @@ h4 {
 
 /* filters list */
 .filters {
+  width: 95%;
   border: 1px solid #888;
   border-radius: 5px;
   padding: 16px;
@@ -195,6 +197,10 @@ footer a {
   h1 {
     font-size: 3em;
   }
+  .content {
+    width: 75%;
+    flex-wrap: nowrap;
+  {
   ul {
     padding: 0;
     padding-left: 2%;
