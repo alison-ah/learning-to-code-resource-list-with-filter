@@ -36,7 +36,7 @@ h1 {
 .content {
   flex-wrap: wrap;
   width: 95%;
-  margin: 0 auto;
+  margin: 0;
   align-items: flex-start;
   justify-content: center;
 }
@@ -44,7 +44,7 @@ h1 {
 /* resource list */
 .resources-list {
   list-style: none;
-  margin: 16px 5px;
+  margin: 0px;
   padding: 0;
 }
 ul {
@@ -52,7 +52,7 @@ ul {
 }
 .resource {
   padding: 10px;
-  margin: 16px 10px;
+  margin: 16px 0;
   display: flex;
   position: relative;
   cursor: pointer;
