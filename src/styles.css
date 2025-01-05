@@ -34,11 +34,11 @@ h1 {
 
 /* content */
 .content {
+  display: flex;
   flex-wrap: wrap;
-  width: 95%;
+  padding: 1em;
   margin: 0;
   align-items: flex-start;
-  justify-content: center;
 }
 
 /* resource list */
@@ -148,7 +148,7 @@ h4 {
 
 /* filters list */
 .filters {
-  width: 95%;
+  width: 300px;
   border: 1px solid #888;
   border-radius: 5px;
   padding: 16px;
@@ -198,7 +198,6 @@ footer a {
   }
   .content {
     display: flex;
-    width: 75%;
     flex-wrap: nowrap;
   }
   ul {
