@@ -22,8 +22,8 @@ body {
 /* header */
 header {
   display: flex;
-  width: 300px;
   justify-content: center;
+  padding: 0 1em;
 }
 h1 {
   font-size: 2em;
@@ -34,7 +34,8 @@ h1 {
 
 /* content */
 .content {
-  width: 300px;
+  display: flex;
+  width: 75%;
   margin: 0 auto;
   align-items: flex-start;
   justify-content: center;
@@ -177,7 +178,6 @@ h4 {
 footer {
   display: flex;
   width: 100%;
-  right-padding: 2em;
 }
 footer p {
   font-size: 0.8em;
@@ -192,16 +192,8 @@ footer a {
 
 /* media query */
 @media screen and (min-width: 760px) {
-  header {
-    width: 900px;
-  }
   h1 {
     font-size: 3em;
-  }
-  .content {
-    display: flex;
-    justify-content: center;
-    width: 1000px;
   }
   ul {
     padding: 0;
@@ -232,8 +224,5 @@ footer a {
   }
   .view_resource {
     min-width: 60px;
-  }
-  footer {
-    width: 900px;
   }
 }
