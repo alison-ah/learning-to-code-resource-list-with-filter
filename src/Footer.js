@@ -7,7 +7,7 @@ const Footer = (props) => (
       <a href="https://github.com/alison-ah" target="_blank">
         Alison Holland
       </a>
-      .</br>
+      .<br />
       {" "}
       <a
         href="https://www.flaticon.com/free-icons/overview"
