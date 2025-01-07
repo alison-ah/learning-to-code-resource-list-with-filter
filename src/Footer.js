@@ -7,13 +7,12 @@ const Footer = (props) => (
       <a href="https://github.com/alison-ah" target="_blank">
         Alison Holland
       </a>
-      .
-    </p>
-    <p>
+      .<br>
       {" "}
       <a
         href="https://www.flaticon.com/free-icons/overview"
         title="overview icons"
+        target="_blank"
       >
         Favicon created by the best icon - Flaticon
       </a>
