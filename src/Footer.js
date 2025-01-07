@@ -14,7 +14,7 @@ const Footer = (props) => (
         title="overview icons"
         target="_blank"
       >
-        Favicon created by the best icon - Flaticon
+        Favicon by Flaticon
       </a>
       .
     </p>
