@@ -18,7 +18,8 @@ const Filter = (props) => {
           onChange={onChange}
           className="filter__checkbox"
         />
-        <span aria-label={props.filter.display}>{props.filter.display}</span>
+      </span>
+      <span aria-label={props.filter.display}>{props.filter.display}</span>
       <span className="filter__match-count" aria-label={props.filter.display}>{matchCount}</span>
     </li>
   );
