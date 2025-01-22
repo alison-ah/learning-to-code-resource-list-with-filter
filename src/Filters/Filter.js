@@ -9,19 +9,17 @@ const Filter = (props) => {
   const matchCount = getMatchCount(props.filter.key);
   return (
     <li className="filter">
-      <label>
-        <span>
-          <input
-            type="checkbox"
-            label={props.filter.display}
-            id={props.filter.display}
-            checked={props.isChecked}
-            onChange={onChange}
-            className="filter__checkbox"
-          />
-          <span>{props.filter.display}</span>
-        <span className="filter__match-count" label={props.filter.display}>{matchCount}</span>
-      </label>
+      <span>
+        <input
+          type="checkbox"
+          aria-label={props.filter.display}
+          id={props.filter.display}
+          checked={props.isChecked}
+          onChange={onChange}
+          className="filter__checkbox"
+        />
+        <span aria-label={props.filter.display}>{props.filter.display}</span>
+      <span className="filter__match-count" aria-label={props.filter.display}>{matchCount}</span>
     </li>
   );
 };
