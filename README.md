@@ -1,5 +1,5 @@
 # learning-to-code-resource-list-with-filter
-This app serves as a curated collection of coding learning resources, making it easy for users to find relevant content based on their interests or learning goals.
+<p>This app serves as a curated collection of coding learning resources, making it easy for users to find relevant content based on their interests or learning goals.</p>
 <img src="img/learning_to_code_resource_list.png" alt="screenshot preview of the app" height="250px">
 
 ## Features
