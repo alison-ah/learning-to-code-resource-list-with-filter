@@ -1,5 +1,5 @@
 # learning-to-code-resource-list-with-filter
-This app serves as a curated collection of coding learning resources, making it easy for users to find relevant content based on their interests or learning goals.
+<p>This app serves as a curated collection of coding learning resources, making it easy for users to find relevant content based on their interests or learning goals.</p>
 <img src="img/learning_to_code_resource_list.png" alt="screenshot preview of the app" height="250px">
 
 ## Features
@@ -38,6 +38,7 @@ To run the project, run command "npm run start".
 
 ## Future improvements
 - A back-end for adding content from the browser
+- Restyle project
 
 ## Acknowledgements
 Noticing the challenge of sharing resources with <a href="skillcrush.com" target="_blank">Skillcrush</a> students in the company’s Slack channel, I decided to augment a course project that filtered hotel rooms to share resources for learning to code. It was built in CodeSandbox with JavaScript React and image icons created in Canva. Then it was saved to GitHub and deployed on Netlify.
