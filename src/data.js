@@ -419,7 +419,7 @@ export const resources = [
   {
     id: 28,
     name: "W3C CSS Validation Service",
-    url: "https://validator.w3.org/",
+    url: "https://jigsaw.w3.org/css-validator/",
     imageSrc: "/img/validator.png",
     alt: "validator",
     html: false,
