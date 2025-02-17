@@ -1,12 +1,12 @@
 export const filterOptions = [
   { display: "HTML", key: "html" },
   { display: "CSS", key: "css" },
+  { display: "Accessibility", key: "accessibility" },
   { display: "JavaScript", key: "javaScript" },
   { display: "React", key: "react" },
   { display: "Python", key: "python" },
-  { display: "Accessibility", key: "accessibility" },
-  { display: "Code Validators", key: "validator" },
   { display: "DataViz", key: "dataViz" },
+  { display: "Code Validators", key: "validator" },
   { display: "Made by Skillcrush", key: "skillcrush" },
 ];
 
@@ -419,7 +419,7 @@ export const resources = [
   {
     id: 28,
     name: "W3C CSS Validation Service",
-    url: "https://validator.w3.org/",
+    url: "https://jigsaw.w3.org/css-validator/",
     imageSrc: "/img/validator.png",
     alt: "validator",
     html: false,
