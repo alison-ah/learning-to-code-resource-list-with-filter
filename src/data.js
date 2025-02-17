@@ -457,7 +457,7 @@ export const resources = [
     html: true,
     css: true,
     accessibility: true,
-    javaScript: ture,
+    javaScript: true,
     react: false,
     python: false,
     dataViz: false,
