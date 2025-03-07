@@ -23,6 +23,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -38,6 +39,7 @@ export const resources = [
     react: true,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: true,
   },
   {
@@ -53,6 +55,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -68,6 +71,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -83,6 +87,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -98,6 +103,7 @@ export const resources = [
     react: false,
     python: true,
     dataViz: true,
+    validator: false,
     skillcrush: true,
   },
   {
@@ -113,6 +119,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -128,6 +135,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -143,6 +151,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -158,6 +167,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -173,6 +183,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -188,6 +199,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -203,6 +215,7 @@ export const resources = [
     react: true,
     python: true,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -218,6 +231,7 @@ export const resources = [
     react: true,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -233,6 +247,7 @@ export const resources = [
     react: true,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -248,6 +263,7 @@ export const resources = [
     react: true,
     python: true,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -263,6 +279,7 @@ export const resources = [
     react: true,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -278,6 +295,7 @@ export const resources = [
     react: true,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -293,6 +311,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -308,6 +327,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -323,6 +343,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: true,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -338,6 +359,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: true,
   },
   {
@@ -353,6 +375,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: true,
   },
   {
@@ -368,6 +391,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -383,6 +407,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -398,6 +423,7 @@ export const resources = [
     react: false,
     python: false,
     dataViz: false,
+    validator: false,
     skillcrush: false,
   },
   {
@@ -464,4 +490,49 @@ export const resources = [
     validator: true,
     skillcrush: false,
   },  
+  {
+    id: 31,
+    name: "The Odin Project",
+    url: "https://www.theodinproject.com/paths",
+    imageSrc: "/img/course.png",
+    alt: "course",
+    html: true,
+    css: true,
+    accessibility: true,
+    javaScript: true,
+    react: true,
+    python: false,
+    dataViz: false,
+    validator: false,
+    skillcrush: false,
+  },  
+  {
+    id: 32,
+    name: "CSS Battle",
+    url: "https://cssbattle.dev/",
+    imageSrc: "/img/game.png",
+    alt: "game",
+    html: false,
+    css: true,
+    javaScript: false,
+    react: false,
+    python: false,
+    dataViz: false,
+    skillcrush: false,
+  },
+  {
+    id: 33,
+    name: "Elevator Saga",
+    url: "https://play.elevatorsaga.com/",
+    imageSrc: "/img/game.png",
+    alt: "game",
+    html: false,
+    css: false,
+    javaScript: true,
+    react: false,
+    python: false,
+    dataViz: false,
+    skillcrush: false,
+  },
+
 ];
