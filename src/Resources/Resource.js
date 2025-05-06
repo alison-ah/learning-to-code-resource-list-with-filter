@@ -25,8 +25,15 @@ const Resource = (props) => (
           <Type type="DataViz" hasType={props.resource.dataViz} />
         </div>
         <div className="resource__main--right">
-          <a className="view_resource" href={props.resource.url} target="_blank">
+          <a
+            className="view_resource"
+            href={props.resource.url}
+            title={`Opens in a new tab: ${props.resource.name}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View Resource
+            <span className="sr-only">(opens in a new tab)</span>
           </a>
         </div>
       </div>
