@@ -28,6 +28,7 @@ class App extends Component {
             selectedFilters={this.state.selectedFilters}
             toggleFilter={this.toggleFilter}
           />
+          <h2 className="sr-only">Resources</h2>
           <Resource selectedFilters={this.state.selectedFilters} />
         </div>
         <Footer />

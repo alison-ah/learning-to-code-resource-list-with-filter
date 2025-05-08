@@ -59,11 +59,10 @@ h1 {
 }
 ul {
   padding: 0px;
-  width: 350px;
 }
 .resource {
-  padding: 10px;
-  margin: 16px 0;
+  padding: 3%;
+  margin: 16px 5px;
   display: flex;
   position: relative;
   cursor: pointer;
@@ -159,10 +158,10 @@ h4 {
 
 /* filters list */
 .filters {
-  width: 300px;
+  width: 250px;
   border: 1px solid #888;
   border-radius: 5px;
-  padding: 16px;
+  padding: 4%;
   margin: 16px 10px;
 }
 .filters__header {
@@ -178,7 +177,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 5px 0;
-  width: 290px;
+  width: 240px;
 }
 .filter__checkbox {
   margin-right: 10px;
